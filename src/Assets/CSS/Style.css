@@ -1,0 +1,100 @@
+/* --------navbar css---------- */
+.navbar{
+background: rgba(254, 233, 213, 0.35);
+}
+.navLink{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin: 0px 16px;
+color: #0C0852 !important;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+.navButton{
+  padding: 12px 29px;
+  color: #ffffff;
+  background-color: #FF9234 !important;
+  border: none;
+}
+
+
+
+/*---------banner css------------ */
+.banner {
+  background-color: rgba(254, 233, 213, 0.35);
+  height: 722px;
+  text-align: start;
+}
+.bannerTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  width: 455px;
+  height: 154px;
+}
+.bannerText {
+  width: 454px;
+  height: 96px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #504f62;
+}
+.bannerButton {
+  background: #35d0ba;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+}
+
+/*----------findTutor css----------  */
+.title {
+  color: #0c0852;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 44px;
+  width: 416px;
+  height: 108px;
+}
+.titleText {
+  text-align: start;
+}
+.all-inputs{
+    display: flex;
+    justify-content: space-around;
+}
+.input {
+  background: #ffffff;
+  border: 1px solid rgba(39, 54, 75, 0.1);
+  box-sizing: border-box;
+  width: 274px;
+  height: 84px;
+  font-size: 25px !important;
+  text-decoration: none;
+  color: #504F62;
+  text-align: center;
+}
+.dropdown-input{
+    background: #ffffff !important;
+    color: #504F62 !important;
+    /* text-decoration: none; */
+    border: 1px solid rgba(39, 54, 75, 0.1)!important;
+}
+/* all tutor css */
+.allTutorCard{
+width: 366px;
+height: 347px;
+padding: 48px 36px;
+
+}
+
