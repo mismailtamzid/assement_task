@@ -1,36 +1,34 @@
 import React from 'react';
-import { Button, InputGroup } from 'react-bootstrap';
+import { Button, Col, FormControl, InputGroup, Row } from 'react-bootstrap';
 
 const Subscribe = () => {
     return (
       <div className="container">
-        <div className="bg-warning d-flex justify-content-between align-items-center px-5 py-3 rounded">
-          <h1>Subscribe Our Newsletters</h1>
-          <div className="">
-            {/* <form>
-              <InputGroup className="mb-3">
-                <input
-                  className="subscribeInput"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-                <Button variant="outline-secondary" id="button-addon2">
-                  Button
-                </Button>
-              </InputGroup>
-            </form> */}
-                    
-<form action="" class="newsletter-form">
-        <div class="form-group">
-                <input placeholder="Enter your mail" type="text" class="form-control" />
-        </div>
-        <button class="btn mybtn2">
-                <span class="text-white"> Subscribe Now</span>
-                <i class="far fa-paper-plane"></i>
-        </button>
-</form>
-     </div>
+        <div className="bg-warning p-5 rounded">
+          <div className="row d-flex justify-content-around align-items-center">
+            <div className="col-12 col-md-6 text-light text-start ">
+              <h1>Subscribe <br /> Our Newsletters</h1>
+            </div>
+            <div className="col-md-6">
+              <div className="bg-light p-2 rounded col-12 ">
+                <InputGroup>
+                  <FormControl
+                    className="border-0 p-1 fs-4"
+                    placeholder="Enter your email"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon2"
+                  />
+                  <Button
+                    className="border-0 text-light"
+                    variant="warning"
+                    id="button-addon2"
+                  >
+                    Subscribe Now
+                  </Button>
+                </InputGroup>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

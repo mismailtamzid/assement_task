@@ -9,9 +9,6 @@ import Subscribe from "../../Components/Home/Subscribe/Subscribe";
 import AppBar from "../../Components/Shared/AppBar/AppBar";
 import Footer from "../../Components/Shared/Footer/Footer";
 
-// https://ibb.co/MgkbrTt
-// https://ibb.co/605RhQT
-// https://ibb.co/TP57Ksp
 const Home = () => {
   return (
     <div>

@@ -5,10 +5,9 @@ import bannerImage from "./../../../Assets/images/Illustration.png"
 const Banner = () => {
     return (
       <div className="banner d-flex align-items-center">
-        {" "}
         <div className="container">
-          <div className="d-flex align-items-center">
-            <div className="col-md-6">
+          <div className="row d-flex align-items-center">
+            <div className="col-12 col-md-6">
               <h1 className="title bannerTitle ">
                 Find private <br />
                 tutors for kids
@@ -19,14 +18,13 @@ const Banner = () => {
               </p>
               <button className="bannerButton">Find Tutor Now</button>
             </div>
-            <div className="col-md-6">
-              {" "}
+            <div className="col-12 col-md-6">
+              
               <img
                 src={bannerImage}
                 alt=""
-                width="762.97px"
-                height="482.39px"
-              />{" "}
+                width="100%"
+              />
             </div>
           </div>
         </div>

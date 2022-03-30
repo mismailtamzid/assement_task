@@ -6,67 +6,67 @@ import img3 from "./../../../Assets/images/education 1.png";
 
 const AllTutors = () => {
   return (
-    <div className="container my-5">
-      <h1>
-        All Tutors <br />
-        Guaranted by e-Tutor
-      </h1>
-      <br />
-      {/* cards */}
+    
+      <div className="container my-5">
+        <h1>
+          All Tutors <br />
+          Guaranted by e-Tutor
+        </h1>
+        <br />
 
-      <Row xs={1} md={3} className="g-4">
-        <Col>
-          <Card className="allTutorCard text-start">
-            <Card.Body>
-              <img src={img1} alt="" />
-              <br />
-              <Card.Title>
+        {/* cards */}
+        <Row xs={1} md={3}>
+          <Col>
+            <Card className="allTutorCard text-start">
+              <Card.Body>
+                <img src={img1} alt="" />
                 <br />
-                <h3>Professional Tutors</h3> <br />
-              </Card.Title>
-              <Card.Text>
-                Et scaevola delicata vix, invidunt indo ctum, quodsi eripuit def
-                niebas at pri. Placerat voluptaria ex mel. Eo malis
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card className="allTutorCard text-start">
-            <Card.Body>
-              <img src={img2} alt="" />
-              <br />
-              <Card.Title>
-                {" "}
+                <Card.Title>
+                  <br />
+                  <h3>Professional Tutors</h3> <br />
+                </Card.Title>
+                <Card.Text>
+                  Et scaevola delicata vix, invidunt indo ctum, quodsi eripuit
+                  def niebas at pri. Placerat voluptaria ex mel. Eo malis
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="allTutorCard text-start">
+              <Card.Body>
+                <img src={img2} alt="" />
                 <br />
-                <h3>Professional Tutors</h3> <br />
-              </Card.Title>
-              <Card.Text>
-                Et scaevola delicata vix, invidunt indo ctum, quodsi eripuit def
-                niebas at pri. Placerat voluptaria ex mel. Eo malis
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card className="allTutorCard text-start">
-            <Card.Body>
-              <img src={img3} alt="" />
-              <br />
-              <Card.Title>
-                {" "}
+                <Card.Title>
+                  {" "}
+                  <br />
+                  <h3>Professional Tutors</h3> <br />
+                </Card.Title>
+                <Card.Text>
+                  Et scaevola delicata vix, invidunt indo ctum, quodsi eripuit
+                  def niebas at pri. Placerat voluptaria ex mel. Eo malis
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="allTutorCard text-start">
+              <Card.Body>
+                <img src={img3} alt="" />
                 <br />
-                <h3>Professional Tutors</h3> <br />
-              </Card.Title>
-              <Card.Text>
-                Et scaevola delicata vix, invidunt indo ctum, quodsi eripuit def
-                niebas at pri. Placerat voluptaria ex mel. Eo malis
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </div>
+                <Card.Title>
+                  <br />
+                  <h3>Professional Tutors</h3> <br />
+                </Card.Title>
+                <Card.Text>
+                  Et scaevola delicata vix, invidunt indo ctum, quodsi eripuit
+                  def niebas at pri. Placerat voluptaria ex mel. Eo malis
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </div>
   );
 };
 

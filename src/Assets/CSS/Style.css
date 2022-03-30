@@ -25,6 +25,7 @@
 .banner {
   background-color: rgba(254, 233, 213, 0.35);
   height: 722px;
+  width: 100%;
   text-align: start;
 }
 .bannerTitle {
@@ -32,12 +33,9 @@
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
-  width: 455px;
-  height: 154px;
+  
 }
 .bannerText {
-  width: 454px;
-  height: 96px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -61,17 +59,15 @@
   font-family: "Poppins";
   font-weight: 600;
   font-size: 44px;
-  width: 416px;
-  height: 108px;
 }
 .titleText {
   text-align: start;
 }
-.all-inputs {
+/* .all-inputs {
   display: flex;
   justify-content: space-around;
-}
-.input {
+} */
+/* .input {
   background: #ffffff;
   border: 1px solid rgba(39, 54, 75, 0.1);
   box-sizing: border-box;
@@ -81,7 +77,7 @@
   text-decoration: none;
   color: #504f62;
   text-align: center;
-}
+} */
 .dropdown-input {
   background: #ffffff !important;
   color: #504f62 !important;
@@ -90,8 +86,7 @@
 }
 /* all tutor css */
 .allTutorCard {
-  width: 366px;
-
+  margin: auto;
   padding: 48px 36px;
 }
 /* -------contact css------- */
@@ -113,12 +108,16 @@
   position: relative;
   bottom: -120px;
 }
+/* ------review css------- */
+.reviewBackground{
+  background: #ECFAF8;
+}
 
 /* ----subscribe css------ */
 
 /* ------latestBlog css--------- */
 .blogCard{
-  width: 75%;
+  
   height: 500px;
   background-color: rgba(0, 0, 0, .3) !important;
   background-blend-mode: overlay !important;
@@ -144,4 +143,32 @@
   background-size: cover;
   width: 75%;
   height: 500px;
+}
+
+/* ------common css------ */
+h1, h2, h3, h4, h5{
+  color: #0C0852;
+}
+p{
+  color: #504F62;
+}
+
+
+/* -----mobile responsive-----*/
+@media only screen and (max-width: 600px) {
+.shadowContact{
+  width: 90%;
+  margin: auto;
+  position: relative;
+  bottom: 0;
+}
+.footer{
+  flex-direction: column;
+}
+.footerText{
+  flex-direction: column;
+}
+.privacy{
+  flex-direction: column;
+}
 }

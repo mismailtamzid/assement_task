@@ -66,10 +66,10 @@ const LatestBlog = () => {
                 <div>
                   {" "}
                   <h5 className="fw-normal ">Product designer</h5>
-                  <h3 className="fs-5">
+                   <h3 className="fs-6">
                     Our clients said about our service. <br />
                     said about our service
-                  </h3>
+                   </h3> 
                   <button className="btn btn-warning text-light ">
                     Read More
                   </button>
@@ -80,10 +80,10 @@ const LatestBlog = () => {
               <div className="blogCard card2 p-4 text-start text-light m-5 rounded d-flex align-items-end">
                 <div>
                   <h5 className="fw-normal ">Product designer</h5>
-                  <h3 className="fs-5">
+                   <h3 className="fs-6">
                     Our clients said about our service. <br />
                     said about our service
-                  </h3>
+                   </h3> 
                 </div>
               </div>
             </div>
@@ -92,10 +92,10 @@ const LatestBlog = () => {
                 <div>
                   {" "}
                   <h5 className="fw-normal ">Product designer</h5>
-                  <h3 className="fs-5">
+                   <h3 className="fs-6">
                     Our clients said about our service. <br />
                     said about our service
-                  </h3>
+                   </h3> 
                 </div>
               </div>
             </div>
@@ -104,10 +104,10 @@ const LatestBlog = () => {
                 <div>
                   {" "}
                   <h5 className="fw-normal ">Product designer</h5>
-                  <h3 className="fs-5">
+                   <h3 className="fs-5">
                     Our clients said about our service. <br />
                     said about our service
-                  </h3>
+                   </h3> 
                   <button className="btn btn-warning text-light ">
                     Read More
                   </button>
@@ -119,10 +119,10 @@ const LatestBlog = () => {
                 <div>
                   {" "}
                   <h5 className="fw-normal ">Product designer</h5>
-                  <h3 className="fs-5">
+                   <h3 className="fs-5">
                     Our clients said about our service. <br />
                     said about our service
-                  </h3>
+                   </h3> 
                 </div>
               </div>
             </div>

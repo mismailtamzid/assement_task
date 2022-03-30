@@ -4,30 +4,46 @@ import { BsFacebook, BsTwitter, BsVimeo, BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
     return (
-      <div className="container my-5">
-        <div className=" d-flex align-items-center justify-content-between mt-5">
-          <div className="footer d-flex ">
-            <p className="text-bold mx-4 fs-5 fw-bold">About us</p>
-            <p className="text-bold mx-4 fs-5 fw-bold">Discover</p>
-            <p className="text-bold mx-4 fs-5 fw-bold">Explore</p>
-            <p className="text-bold mx-4 fs-5 fw-bold">Books</p>
-          </div>
-          <div className="d-flex justify-content-between">
-            <BsFacebook className="mx-3" />
-            <BsTwitter className="mx-3" />
-            <BsVimeo className="mx-3" />
-            <BsYoutube className="mx-3" />
+      <div className="container ">
+        <div className="footer d-flex align-items-center justify-content-between mt-5">
+          <ul type="none" className="footerText d-flex text-bold  fs-5 fw-bold">
+            <li className="me-4">About us</li>
+            <li className="mx-4">Discover</li>
+            <li className="mx-4">something</li>
+            <li className="mx-4">Books</li>
+          </ul>
+          <div>
+            <ul
+              type="none"
+              className="footerText2 d-flex text-bold  fs-5 fw-bold"
+            >
+              <li>
+                <BsFacebook className="mx-3" />
+              </li>
+              <li>
+                {" "}
+                <BsTwitter className="mx-3" />
+              </li>
+              <li>
+                {" "}
+                <BsVimeo className="mx-3" />
+              </li>
+              <li>
+                {" "}
+                <BsYoutube className="mx-3" />
+              </li>
+            </ul>
           </div>
         </div>
         <hr />
         <div>
           <div className="d-flex align-items-center justify-content-between mt-5">
             {" "}
-            <p className='fs-5'>&copy;2021 e-tutor All rights reserved </p>
-            <div className="d-flex">
-              <p className="mx-3 fs-5">Terms of Service</p>
-              <p className='fs-5'>Privacy Policy</p>
-            </div>
+            <p className="fs-5">&copy;2021 e-tutor All rights reserved </p>
+            <ul type="none" className="privacy d-flex">
+              <li className="mt-2 mx-5 fs-5">Terms of Service</li>
+              <li className="fs-5 mt-2">Privacy Policy</li>
+            </ul>
           </div>
         </div>
       </div>
