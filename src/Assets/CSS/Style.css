@@ -1,27 +1,25 @@
 /* --------navbar css---------- */
-.navbar{
-background: rgba(254, 233, 213, 0.35);
+.navbar {
+  background: rgba(254, 233, 213, 0.35);
 }
-.navLink{
-  font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-margin: 0px 16px;
-color: #0C0852 !important;
+.navLink {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0px 16px;
+  color: #0c0852 !important;
 }
-.nav{
+.nav {
   display: flex;
   align-items: center;
 }
-.navButton{
+.navButton {
   padding: 12px 29px;
   color: #ffffff;
-  background-color: #FF9234 !important;
+  background-color: #ff9234 !important;
   border: none;
 }
-
-
 
 /*---------banner css------------ */
 .banner {
@@ -69,9 +67,9 @@ color: #0C0852 !important;
 .titleText {
   text-align: start;
 }
-.all-inputs{
-    display: flex;
-    justify-content: space-around;
+.all-inputs {
+  display: flex;
+  justify-content: space-around;
 }
 .input {
   background: #ffffff;
@@ -81,20 +79,69 @@ color: #0C0852 !important;
   height: 84px;
   font-size: 25px !important;
   text-decoration: none;
-  color: #504F62;
+  color: #504f62;
   text-align: center;
 }
-.dropdown-input{
-    background: #ffffff !important;
-    color: #504F62 !important;
-    /* text-decoration: none; */
-    border: 1px solid rgba(39, 54, 75, 0.1)!important;
+.dropdown-input {
+  background: #ffffff !important;
+  color: #504f62 !important;
+  /* text-decoration: none; */
+  border: 1px solid rgba(39, 54, 75, 0.1) !important;
 }
 /* all tutor css */
-.allTutorCard{
-width: 366px;
-height: 347px;
-padding: 48px 36px;
+.allTutorCard {
+  width: 366px;
 
+  padding: 48px 36px;
+}
+/* -------contact css------- */
+.contact {
+  background-image: url("https://i.ibb.co/ZhPkYXs/Image1.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.shadowContact {
+  box-shadow: 2px 2px 12px gainsboro;
+  width: 688px;
+  padding: 40px;
+  text-align: left;
+  background-color: #ffffff;
+  position: relative;
+  bottom: -120px;
 }
 
+/* ----subscribe css------ */
+
+/* ------latestBlog css--------- */
+.blogCard{
+  width: 75%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, .3) !important;
+  background-blend-mode: overlay !important;
+}
+.card1{
+   background-image: url("https://i.ibb.co/VM8zHsr/first.webp") !important;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card2{
+  background-image: url("https://i.ibb.co/RTWpn8s/second.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75%;
+  height: 500px;
+}
+.card3{
+  background-image: url("https://i.ibb.co/hgFkb54/third.webp");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75%;
+  height: 500px;
+}
