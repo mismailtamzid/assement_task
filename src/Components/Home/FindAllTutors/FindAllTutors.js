@@ -34,15 +34,7 @@ const FindAllTutors = () => {
               className="py-3 fs-4"
             />
           </Col>
-          <Col className="my-2">
-            <FormControl
-              aria-label="Example text with button addon"
-              aria-describedby="basic-addon1"
-              placeholder="All Groups"
-              type="text"
-              className="py-3 fs-4"
-            />
-          </Col>
+
           {/*  */}
           <Col className="p-5">
             <Dropdown className="dropdown-btn ">
@@ -50,7 +42,7 @@ const FindAllTutors = () => {
                 id="dropdown-basic"
                 className="input dropdown-input "
               >
-                Dropdown Button
+                All Groups
               </Dropdown.Toggle>
 
               <Dropdown.Menu>
@@ -59,6 +51,15 @@ const FindAllTutors = () => {
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
+          </Col>
+          <Col className="my-2">
+            <FormControl
+              aria-label="Example text with button addon"
+              aria-describedby="basic-addon1"
+              placeholder="All Groups"
+              type="text"
+              className="py-3 fs-4"
+            />
           </Col>
         </Row>
         {/* </div> */}
