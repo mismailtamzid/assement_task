@@ -1,6 +1,5 @@
 import React from 'react';
-import bannerImage from "./../../../Assets/images/Illustration.png"
-
+import bannerImage from "./../../../Assets/images/Illustration.png";
 
 const Banner = () => {
     return (
@@ -13,18 +12,14 @@ const Banner = () => {
                 tutors for kids
               </h1>
               <p className="bannerText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quisquam molestias dignissimos minima! Dolore, velit corrupti?
+                Our YoungStars tutors are specially trained to work with young
+                learners and keep them engaged and motivated through the
+                tutoring lesson
               </p>
               <button className="bannerButton">Find Tutor Now</button>
             </div>
             <div className="col-12 col-md-6">
-              
-              <img
-                src={bannerImage}
-                alt=""
-                width="100%"
-              />
+              <img src={bannerImage} alt="" width="100%" />
             </div>
           </div>
         </div>

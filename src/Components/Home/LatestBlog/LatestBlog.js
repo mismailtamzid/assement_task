@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-const Review = () => {
+const LatestBlog = () => {
   const sliderRef = useRef(null);
   console.log(sliderRef.current);
   var settings = {
@@ -199,4 +199,4 @@ const Review = () => {
   );
 };
 
-export default Review;
+export default LatestBlog;

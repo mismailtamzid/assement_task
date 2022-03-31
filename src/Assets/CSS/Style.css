@@ -63,31 +63,14 @@
 .titleText {
   text-align: start;
 }
-/* .all-inputs {
-  display: flex;
-  justify-content: space-around;
-} */
-/* .input {
-  background: #ffffff;
-  border: 1px solid rgba(39, 54, 75, 0.1);
-  box-sizing: border-box;
-  width: 274px;
-  height: 84px;
-  font-size: 25px !important;
-  text-decoration: none;
-  color: #504f62;
-  text-align: center;
-} */
 .dropdown-input {
   background: #ffffff !important;
   color: #504f62 !important;
-  /* text-decoration: none; */
   border: 1px solid rgba(39, 54, 75, 0.1) !important;
 }
 .dropdown-btn .input {
   width: 100% !important;
   padding: 23px 10px;
-
   margin-top: -41px;
   border:1px solid #eee;
   text-align: center;
@@ -121,19 +104,15 @@
 .reviewBackground{
   background: #ECFAF8;
 }
-
-/* ----subscribe css------ */
-
 /* ------latestBlog css--------- */
 .blogCard{
-  
   height: 500px;
   background-color: rgba(0, 0, 0, .3) !important;
   background-blend-mode: overlay !important;
 }
 .card1{
-   background-image: url("https://i.ibb.co/VM8zHsr/first.webp") !important;
-   background-position: center;
+  background-image: url("https://i.ibb.co/VM8zHsr/first.webp") !important;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -147,7 +126,7 @@
 }
 .card3{
   background-image: url("https://i.ibb.co/hgFkb54/third.webp");
-   background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 75%;
@@ -161,7 +140,6 @@ h1, h2, h3, h4, h5{
 p{
   color: #504F62;
 }
-
 
 /* -----mobile responsive-----*/
 @media only screen and (max-width: 600px) {

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Card, Col, Dropdown, DropdownButton, FormControl, InputGroup, ListGroupItem, Row } from "react-bootstrap";
+import { Col, Dropdown, FormControl, Row } from "react-bootstrap";
 import FindSingleTutor from "../FindSingleTutor/FindSingleTutor";
-
 
 const FindAllTutors = () => {
   const [tutors, setTutors] = useState([]);
@@ -14,7 +13,6 @@ const FindAllTutors = () => {
     <>
       <div className="container mb-5">
         <p className="title titleText my-5">Find the right tutors for you</p>
-
         <Row xs={1} md={2} lg={4}>
           <Col className="my-2">
             <FormControl
@@ -34,14 +32,19 @@ const FindAllTutors = () => {
               className="py-3 fs-4"
             />
           </Col>
-
-          {/*  */}
+          <Col className="my-2">
+            <FormControl
+              aria-label="Example text with button addon"
+              aria-describedby="basic-addon1"
+              placeholder="All Groups"
+              type="text"
+              className="py-3 fs-4"/>
+          </Col>
           <Col className="p-5">
             <Dropdown className="dropdown-btn ">
               <Dropdown.Toggle
                 id="dropdown-basic"
-                className="input dropdown-input "
-              >
+                className="input dropdown-input ">
                 All Groups
               </Dropdown.Toggle>
 
@@ -52,21 +55,10 @@ const FindAllTutors = () => {
               </Dropdown.Menu>
             </Dropdown>
           </Col>
-          <Col className="my-2">
-            <FormControl
-              aria-label="Example text with button addon"
-              aria-describedby="basic-addon1"
-              placeholder="All Groups"
-              type="text"
-              className="py-3 fs-4"
-            />
-          </Col>
         </Row>
-        {/* </div> */}
-
-        {/* cards */}
         <div className="cards">
           <Row xs={1} md={2} lg={3} className="g-4">
+            {/* single tutor component */}
             {tutors.map((tutor) => (
               <FindSingleTutor key={tutor?.id} tutor={tutor}></FindSingleTutor>
             ))}

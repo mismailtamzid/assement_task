@@ -43,7 +43,7 @@ const Review = () => {
   return (
     <div className="reviewBackground">
       <div className="container py-5">
-        <div
+        <div className="reviewText"
           style={{
             display: "flex",
             justifyContent: "space-between",
@@ -55,7 +55,7 @@ const Review = () => {
             Our clients <br />
             said about our service
           </h1>
-          <div style={{ display: "flex" }}>
+          <div className="d-flex">
             <div
               style={{
                 width: 40,
