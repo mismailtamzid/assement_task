@@ -1,13 +1,46 @@
 import React, { useRef } from "react";
-import Slider from "react-slick/lib/slider";
+import Slider from "react-slick";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-
-const LatestBlog = () => {
+const Review = () => {
   const sliderRef = useRef(null);
   console.log(sliderRef.current);
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1224,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 1223,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 990,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
-    <div className="">
+    <div>
       <div className="container py-5">
         <div
           style={{
@@ -59,78 +92,111 @@ const LatestBlog = () => {
             </div>
           </div>
         </div>
-        <div className="cards">
-          <Slider ref={sliderRef} slidesToShow={3}>
+        <Slider ref={sliderRef} {...settings}>
+          <div>
             <div>
-              <div className="blogCard card1 p-4 text-start text-light m-5 rounded d-flex align-items-end">
-                <div>
+              <div className="blogCard card1 p-4 text-start  m-5 rounded d-flex align-items-end ">
+                <div className="text-light">
                   {" "}
                   <h5 className="fw-normal ">Product designer</h5>
-                   <h3 className="fs-6">
-                    Our clients said about our service. <br />
-                    said about our service
-                   </h3> 
+                  <p className="fs-6">
+                    Latest Blog <br />about our new resourse
+                  </p> 
                   <button className="btn btn-warning text-light ">
                     Read More
                   </button>
                 </div>
               </div>
             </div>
+          </div>
+          <div>
             <div>
               <div className="blogCard card2 p-4 text-start text-light m-5 rounded d-flex align-items-end">
                 <div>
                   <h5 className="fw-normal ">Product designer</h5>
-                   <h3 className="fs-6">
+                  <p className="fs-6">
                     Our clients said about our service. <br />
                     said about our service
-                   </h3> 
+                  </p> 
                 </div>
               </div>
             </div>
+          </div>
+          <div>
             <div>
               <div className="blogCard card3 p-4 text-start text-light m-5 rounded d-flex align-items-end">
                 <div>
                   {" "}
                   <h5 className="fw-normal ">Product designer</h5>
-                   <h3 className="fs-6">
+                  <p className="fs-6">
                     Our clients said about our service. <br />
                     said about our service
-                   </h3> 
+                  </p> 
                 </div>
               </div>
             </div>
+          </div>
+          <div>
             <div>
               <div className="blogCard card1 p-4 text-start text-light m-5 rounded d-flex align-items-end">
                 <div>
                   {" "}
                   <h5 className="fw-normal ">Product designer</h5>
-                   <h3 className="fs-5">
+                  <p className="fs-6">
                     Our clients said about our service. <br />
                     said about our service
-                   </h3> 
+                  </p> 
                   <button className="btn btn-warning text-light ">
                     Read More
                   </button>
                 </div>
               </div>
             </div>
+          </div>
+          <div>
             <div>
               <div className="blogCard card2 p-4 text-start text-light m-5 rounded d-flex align-items-end">
                 <div>
-                  {" "}
                   <h5 className="fw-normal ">Product designer</h5>
-                   <h3 className="fs-5">
+                  <p className="fs-6">
                     Our clients said about our service. <br />
                     said about our service
-                   </h3> 
+                  </p> 
                 </div>
               </div>
             </div>
-          </Slider>
-        </div>
+          </div>
+          <div>
+            <div>
+              <div className="blogCard card2 p-4 text-start text-light m-5 rounded d-flex align-items-end">
+                <div>
+                  <h5 className="fw-normal ">Product designer</h5>
+                  <p className="fs-6">
+                    Our clients said about our service. <br />
+                    said about our service
+                  </p> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div className="blogCard card3 p-4 text-start text-light m-5 rounded d-flex align-items-end">
+                <div>
+                  {" "}
+                  <h5 className="fw-normal ">Product designer</h5>
+                  <p className="fs-6">
+                    Our clients said about our service. <br />
+                    said about our service
+                  </p> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </Slider>
       </div>
     </div>
   );
 };
 
-export default LatestBlog;
+export default Review;
