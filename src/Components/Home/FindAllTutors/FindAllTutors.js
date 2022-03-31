@@ -45,10 +45,10 @@ const FindAllTutors = () => {
           </Col>
           {/*  */}
           <Col className="p-5">
-            <Dropdown>
+            <Dropdown className="dropdown-btn ">
               <Dropdown.Toggle
                 id="dropdown-basic"
-                className="input dropdown-input w-75"
+                className="input dropdown-input "
               >
                 Dropdown Button
               </Dropdown.Toggle>

@@ -7,7 +7,7 @@ const Subscribe = () => {
         <div className="bg-warning p-5 rounded">
           <div className="row d-flex justify-content-around align-items-center">
             <div className="col-12 col-md-6 text-light text-start ">
-              <h1>Subscribe <br /> Our Newsletters</h1>
+              <h1 className='text-light'>Subscribe <br /> Our Newsletters</h1>
             </div>
             <div className="col-md-6">
               <div className="bg-light p-2 rounded col-12 ">
